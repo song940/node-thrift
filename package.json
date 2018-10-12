@@ -1,8 +1,8 @@
 {
-  "name": "node-thrift-protocol",
-  "version": "0.1.17",
+  "name": "thrift2",
+  "version": "0.0.1",
   "description": "An implementation of thrift-protocol with node.",
-  "main": "index.js",
+  "main": "thrift.js",
   "scripts": {
     "lint": "eslint .",
     "mocha": "mocha tests",

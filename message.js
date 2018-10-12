@@ -232,4 +232,5 @@ class TMessage {
   }
 }
 
-module.exports = (...args) => new TMessage(...args).toBuffer();
+
+module.exports = TMessage;
