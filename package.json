@@ -6,19 +6,26 @@
   "scripts": {
     "lint": "eslint .",
     "mocha": "mocha tests",
-    "test": "eslint . && mocha tests"
+    "test": "eslint . && mocha tests",
+    "start": "node server.js"
   },
   "author": "rongyi.liu@ele.me",
-  "repository": "https://github.com/eleme/node-thrift-protocol",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/song940/node-thrift.git"
+  },
   "license": "MIT",
   "dependencies": {
     "FrameGenerator": "^0.2.6",
     "bignumber.js": "^2.4.0"
   },
-  "devDependencies": {
-    "eslint": "^3.17.1",
-    "eslint-config-elemefe": "^0.2.0",
-    "mocha": "^3.2.0",
-    "sequence-tester": "^0.1.1"
+  "bugs": {
+    "url": "https://github.com/song940/node-thrift/issues"
+  },
+  "homepage": "https://github.com/song940/node-thrift#readme",
+  "directories": {
+    "example": "example",
+    "lib": "lib",
+    "test": "tests"
   }
 }
